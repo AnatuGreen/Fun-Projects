@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  padding: 10px;
+}
+.textIn {
+  height: 100px;
+  width: 100%;
+  border: 2px solid green;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.numberIn {
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.repeatText {
+  width: 180px;
+  height: 30px;
+}
+
+.result {
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
+
+#repeatButton {
+  margin-bottom: 10px;
+}
+
+#refresh {
+  margin: 10px;
+}

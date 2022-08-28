@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Projects of Anatu Green</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Fun Stuff</h1>
+    <div class="container">
+      <h2 class="wordrep">Word Repeater</h2>
+      <textarea
+        class="textIn"
+        id="texttorepeat"
+        placeholder="Text to repeat"
+        required
+        multiple
+      ></textarea>
+      <input
+        class="numberIn"
+        id="numberofreps"
+        placeholder="Number of times to repeat"
+      />
+      <button id="repeatButton" class="repeatText">Repeat</button>
+      <button class="copyToClipboard" onclick="copy()">Copy result</button>
+      <button id="refresh">Refresh</button>
+      <h4>Result</h4>
+      <p class="result" id="repeatResult"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
