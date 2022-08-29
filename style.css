@@ -1,9 +1,12 @@
+body {
+  margin: 0;
+}
 .container {
   display: flex;
   flex-direction: column;
   width: 500px;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
 }
 .textIn {
   height: 100px;
@@ -19,21 +22,51 @@
   padding: 10px;
 }
 
-.repeatText {
-  width: 180px;
-  height: 30px;
+button {
+  height: 50px;
+  width: 100px;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .result {
   width: 100%;
   height: 300px;
   overflow: scroll;
+  margin: 10px;
 }
 
 #repeatButton {
   margin-bottom: 10px;
 }
 
-#refresh {
-  margin: 10px;
+@media screen and (max-width: 600px) {
+  body {
+    flex: 1;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 10px; */
+    width: 100%;
+  }
+  .textIn {
+    height: 150px;
+    width: 90%;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+  }
+  .result {
+    height: 300px;
+    width: 100%;
+    border: 2px solid green;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
 }
